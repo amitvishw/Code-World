@@ -1,0 +1,17 @@
+nt max=0;
+	//for(c=0;c<26;c++)
+	//{
+	//	if(max<count[c])
+	//		max=count[c];
+	//}
+	//printf("%c occurs %d times in the entered string.\n",c,count[c]);
+ 	for ( c=0;c<26;c++)
+   	{
+      		if(max<count[c])
+		{
+			max=count[c];
+			i=c;	
+		}
+     //   	printf("%c occurs %d times in the entered string.\n",c+'a',max);
+   	}
+	printf("%c occurs %d times in the entered string.\n",i+'a',max);
